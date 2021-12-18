@@ -1108,6 +1108,14 @@ a:hover {
 }
 
 .team-member:hover .mask {
+  cursor: default;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: rotateY(0deg) scale(1, 1);
+  transform: rotateY(0deg) scale(1, 1);
+}
+
+.team-member:hover .mask-webinar {
   cursor: pointer;
   opacity: 1;
   filter: alpha(opacity=100);
@@ -1154,6 +1162,21 @@ a:hover {
 }
 
 .member-photo .mask {
+  background-color: rgba(87, 203, 204, 0.7);
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transition: all .5s ease-out 0s;
+  -webkit-transform: rotateY(180deg) scale(0.5, 0.5);
+  transform: rotateY(180deg) scale(0.5, 0.5);
+}
+
+.member-photo .mask-webinar {
   background-color: rgba(87, 203, 204, 0.7);
   position: absolute;
   text-align: center;

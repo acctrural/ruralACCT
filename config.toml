@@ -27,8 +27,8 @@ link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,70
 # css plugins custom
 # [[params.customplugins.css]]
 # link = "plugins/customcss/bootstrap4-toggle.min.css"
-[[params.customplugins.css]]
-link = "plugins/customcss/d3-tip.css"
+# [[params.customplugins.css]]
+# link = "plugins/customcss/d3-tip.css"
 # [[params.customplugins.css]]
 # link = "plugins/customcss/materialize.css"
 
@@ -48,29 +48,25 @@ link = "plugins/lazy-load/lozad.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/map.js"
 
-# js plugins custom
-[[params.plugins.js]]
-link = "plugins/customjs/index.js"
+# # js plugins custom - comment out because the usmap is not used
+# [[params.plugins.js]]
+# link = "plugins/customjs/index.js"
 
-[[params.customplugins.js]]
-link = "plugins/customjs/d3.min.js"
-[[params.customplugins.js]]
-link = "plugins/customjs/d3-tip-v6.js"
-[[params.customplugins.js]]
-link = "plugins/customjs/topojson.min.js"
+# [[params.customplugins.js]]
+# link = "plugins/customjs/d3.min.js"
+# [[params.customplugins.js]]
+# link = "plugins/customjs/d3-tip-v6.js"
+# [[params.customplugins.js]]
+# link = "plugins/customjs/topojson.min.js"
 
 ################### Navigation ########################
-[[Languages.en.menu.main]]
-name = "about"
-pre = "#"
-url = "about"
-weight = 1
+
 
 [[Languages.en.menu.main]]
 name = "publication"
 pre = ""
 url = "https://www.acct.org/files/Strengthening%20Rural%20Community%20Colleges%202021.pdf"
-weight = 2
+weight = 1
 
 # took the map section now per Rachel's request on 8/20/21
 # [[Languages.en.menu.main]]
@@ -80,10 +76,17 @@ weight = 2
 # weight = 3
 
 [[Languages.en.menu.main]]
+name = "map"
+pre = "#"
+url = "tableauMap"
+weight = 2
+
+[[Languages.en.menu.main]]
 name = "latest"
 pre = "#"
 url = "blog"
-weight = 4
+weight = 3
+
 
 [[Languages.en.menu.main]]
 name = "team"

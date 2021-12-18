@@ -1,7 +1,7 @@
 ---
 title: "State Legislative Initiatives"
 image: images/asset/blog1-pic.jpeg
-date: 2019-01-01
+date: 2021-12-01
 author:
 summary : Track Pending State Legislation Impacting Rural Community Colleges
 ---
