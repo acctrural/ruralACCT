@@ -2437,3 +2437,30 @@ figcaption {
     font-family: "Quattrocento Sans", sans-serif;
     font-size: 15px;
 }
+
+.tableauMapContainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 7.5vh;
+  margin-bottom: 7.5vh;
+}
+
+.legalContainer1{
+  margin-left: 10vh;
+  margin-right: 10vh;
+}
+
+
+.legalContainer2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 50vh;  
+}
+
+@media (max-width: 768px) {
+  .legalContainer2 {
+    font-size: small;
+    height: 110vh;  
+  }
+}
